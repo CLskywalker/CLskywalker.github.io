@@ -47,30 +47,32 @@
   };
 </script>
 
-  <meta name="description" content="Watch and learn">
-<meta property="og:type" content="website">
-<meta property="og:title" content="One Blog">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="算起来这应该是第三次入门python了，第一次无疾而终，第二次只完成了Codecademy上最基础的课程,之后也没有继续深入。正好前几天老师转发的一篇机器之心的推送上附了一种一个月从入门到精通 的学习方法，而且正好跟GRE分手了，所以来切身践行一下。  删除列表中的重复项​    看到这个问题我想到的解决是思路是使用for循环遍历列表，再用if语句判断重复出现的次数，最后删掉重复的元素。结果想起了">
+<meta name="keywords" content="python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="简单编程问题">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;26&#x2F;python%E7%AE%80%E5%8D%95%E7%BC%96%E7%A8%8B%E9%97%AE%E9%A2%98&#x2F;index.html">
 <meta property="og:site_name" content="One Blog">
-<meta property="og:description" content="Watch and learn">
+<meta property="og:description" content="算起来这应该是第三次入门python了，第一次无疾而终，第二次只完成了Codecademy上最基础的课程,之后也没有继续深入。正好前几天老师转发的一篇机器之心的推送上附了一种一个月从入门到精通 的学习方法，而且正好跟GRE分手了，所以来切身践行一下。  删除列表中的重复项​    看到这个问题我想到的解决是思路是使用for循环遍历列表，再用if语句判断重复出现的次数，最后删掉重复的元素。结果想起了">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-27T15:48:19.872Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/2019/11/26/python%E7%AE%80%E5%8D%95%E7%BC%96%E7%A8%8B%E9%97%AE%E9%A2%98/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>One Blog</title>
+  <title>简单编程问题 | One Blog</title>
   
 
 
@@ -176,10 +178,10 @@
             
 
   <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/26/python%E7%AE%80%E5%8D%95%E7%BC%96%E7%A8%8B%E9%97%AE%E9%A2%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -193,8 +195,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/11/26/python%E7%AE%80%E5%8D%95%E7%BC%96%E7%A8%8B%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">简单编程问题</a>
+          简单编程问题
         </h1>
 
         <div class="post-meta">
@@ -225,7 +226,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>算起来这应该是第<strong>三</strong>次<strong>入门</strong>python了，第一次无疾而终，第二次只完成了<a href="https://www.codecademy.com/" target="_blank" rel="noopener">Codecademy</a>上最基础的课程,之后也没有继续深入。正好前几天老师转发的一篇机器之心的推送上附了一种<em>一个月从入门到精通</em> 的学习方法，而且正好跟GRE分手了，所以来切身践行一下。</p>
+        <p>算起来这应该是第<strong>三</strong>次<strong>入门</strong>python了，第一次无疾而终，第二次只完成了<a href="https://www.codecademy.com/" target="_blank" rel="noopener">Codecademy</a>上最基础的课程,之后也没有继续深入。正好前几天老师转发的一篇机器之心的推送上附了一种<em>一个月从入门到精通</em> 的学习方法，而且正好跟GRE分手了，所以来切身践行一下。</p>
 <hr>
 <h2 id="删除列表中的重复项"><a href="#删除列表中的重复项" class="headerlink" title="删除列表中的重复项"></a>删除列表中的重复项</h2><p>​    看到这个问题我想到的解决是思路是使用for循环遍历列表，再用if语句判断重复出现的次数，最后删掉重复的元素。结果想起了list还有一个count函数，这样的就简单很多了，直接用count计数，删除返回值大于1的元素即可。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List1 = [<span class="number">1</span>,<span class="string">"two"</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="string">"two"</span>]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> List1:</span><br><span class="line"> 	<span class="keyword">if</span> List1.count(i) &gt; <span class="number">1</span>:</span><br><span class="line">		List1.remove(i)</span><br><span class="line">print(List1)</span><br></pre></td></tr></table></figure>
@@ -258,170 +259,36 @@
 
 <p>倒三角</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/python/" rel="tag"># python</a>
+          </div>
 
         
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/24/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="clskywalker">
-      <meta itemprop="description" content="Watch and learn">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="One Blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/11/24/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/" class="post-title-link" itemprop="url">写在前面</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2019-11-24 20:47:14" itemprop="dateCreated datePublished" datetime="2019-11-24T20:47:14+08:00">2019-11-24</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-11-25 23:18:36" itemprop="dateModified" datetime="2019-11-25T23:18:36+08:00">2019-11-25</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="差强人意"><a href="#差强人意" class="headerlink" title="差强人意"></a>差强人意</h1><p>​    首先今天是11.24，首战GRE的第二天，本来想考完试就马上写blog的，结果鄙人过于愚钝建立blog时处处碰壁，不该踩的、应该踩的坑都踩到了，直到今天晚上才得以写下这篇blog。</p>
-<p>​     V156+Q168的成绩，不算很完美但也说得过去。从8月份开始备考到11月23日9点进入考场，期间虽有偷懒旷工，但用于学习的时间也有三个月左右。对于Verbal来说，能取得这个成绩是超出预期的。单词大概只有刚开始的一个月有<del>认认真真</del>地刷过一遍，之后虽然也有背但也只是蜻蜓点水般，以至于到备考的最后阶段单词不认识仍是制约填空正确率的最大因素。单词不只要做到认识，还至少应该脱口而出它的意思，因为真正在考场上，是没有时间盯着一个单词发呆回忆它的意思的。如果要追求把verbal部分的题全部做完，做填空和阅读时，是没有时间回头看句子第二遍。因为单词不熟，有的题干需要反复看多遍，但即便是这样，也没有能把每个细读过题都做得有把握。所以做到最后，几乎是在靠感觉做题做到意识模糊。长阅读是我做过为数不多的原题，遗憾的是到考试时已经忘记了答案，只能靠内隐记忆随便选了几个选项，连原文都没有读过。幸好我的题目顺序是QVQVQ，如果三个Verbal Section，估计我会在考场做到崩溃。做Verbal时我一度以为这次V能拿到150分就不错了，提交成绩时V居然是156，始料未及，有些玄学。</p>
-<p>​    对于Q，虽然早有耳闻ETS打击中国学生，Q想要得满分已经比之前要难了，但看着自己只有168还是有些许失望。不过想到第二个section居然因为三道统计题导致整个section没有做完，而我素来不是一个细心的人，对于ETS偏难怪的题我也清楚大概率会有失手的情况。没想到真的栽在了ETS手里，不过168也不离谱，如果没有太大变故，应该算是跟GRE<strong>分手</strong>了吧！</p>
-<p>​    不过这只能算是迈出了第一步，后面还有更加残酷的战斗。It’s a long fight and need to take a long time to overcome.</p>
-<hr>
-<p>​    关于这个blog，前几天听了两位老师的讲话深有感触，觉得的确需要找个地方来记录自己的学习成长经历，以增强自我效能感。关于blog之后的内容，大概就是随便写点东西，分享一下学习经验、笔记。</p>
-<p>关于接下来要做的几件事：</p>
-<ul>
-<li>备考TOEFL</li>
-<li>完成Python入门</li>
-<li>学期结束前完成OpenCourseWare上Linear Algebra的课程</li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
         
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/23/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="clskywalker">
-      <meta itemprop="description" content="Watch and learn">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="One Blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/11/23/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2019-11-23 21:55:25" itemprop="dateCreated datePublished" datetime="2019-11-23T21:55:25+08:00">2019-11-23</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/11/24/%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2/" rel="prev" title="写在前面">
+      <i class="fa fa-chevron-left"></i> 写在前面
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
   
 
   </div>
-
-  
-
 
 
           </div>
@@ -450,6 +317,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#删除列表中的重复项"><span class="nav-number">1.</span> <span class="nav-text">删除列表中的重复项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#求某整数各数位之和"><span class="nav-number">2.</span> <span class="nav-text">求某整数各数位之和</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#判断一个数是否为质数"><span class="nav-number">3.</span> <span class="nav-text">判断一个数是否为质数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#打印9-9乘法表"><span class="nav-number">4.</span> <span class="nav-text">打印9*9乘法表</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
