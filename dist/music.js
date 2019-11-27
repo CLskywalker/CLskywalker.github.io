@@ -2,6 +2,7 @@ const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
     autoplay: true,
+    order: 'random',
     audio: [
       {
         name: "水星记",
@@ -20,6 +21,12 @@ const ap = new APlayer({
         artist: '陈奕迅',
         url: 'http://music.163.com/song/media/outer/url?id=65766.mp3',
         cover: 'http://p2.music.126.net/PcJq6i7zMcPgudejdn1yeg==/109951163256302356.jpg?param=130y130',
+      }, 
+      {
+        name: "Take me home, country roads",
+        artist: 'John Denver',
+        url: 'http://music.163.com/song/media/outer/url?id=1477334.mp3',
+        cover: 'http://p2.music.126.net/ghcTEBFpu25CZ-nPe3y8Cg==/868614185994214.jpg?param=130y130',
       }
     ]
 });
